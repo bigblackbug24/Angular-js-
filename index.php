@@ -87,6 +87,9 @@
                                         <th>
                                             Total Bill
                                         </th>
+                                        <th>
+                                            Action
+                                        </th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -108,6 +111,9 @@
                                         </td>
                                         <td>
                                             {{data.total}}
+                                        </td>
+                                        <td>
+                                            <button ng-click="delete_products(data.id);" class="btn-danger">DELETE</button>
                                         </td>
                                     </tr>
 
